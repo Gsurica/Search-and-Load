@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #272626;
+    min-width: 920px;
+    width: 920px;
+    margin: 0 auto;
+}
+.user {
+    padding: 5px;
+    margin-top: 50px;
+    text-indent: 85px;
+}
+.user h2 {
+    letter-spacing: 10px;
+    color: #fff;
+    text-decoration: italic;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 85px;
+    margin-top: 20px;
+}
+.item {
+    margin: 10px 5px;
+}
+.button-1 {
+    padding: 10px;
+    border: none;
+    color: #000;
+    background-color:#C62368;
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+.button-2 {
+    padding: 10px;
+    border: none;
+    color: #000;
+    background-color:rgb(204, 13, 13);
+    transition: all 0.3s;
+    border-radius: 20px;
+}
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button-1:hover {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color:rgb(11, 129, 184, 0.7);
+    border-radius: 20px;
+}
+.button-2:hover {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color:rgb(204, 13, 13, 0.7);
+    border-radius: 20px;
+}
+.name-area {
+    border: 1px solid #fff;
+    margin-top: 50px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+.name-area span {
+    color: #fff;
+}
+li {
+    list-style: none;
+    color: #fff;
+}
+.list-style {
+    border: 1px solid #fff;
+    padding: 10px;
+}
